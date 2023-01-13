@@ -53,8 +53,8 @@ overflow-wrap: break-word;
     box-shadow: 1px 1px 20px 1px hsl(209, 46%, 86%);
 }
 
-/*--Section CSS--*/
-/*--There are three sections (I named col1, col2, and col3) containing different info--*
+/*--Section CSS--
+----There are 3 sections (named col1, col2, and col3) containing different info--*/
 
 section {
     padding: 1em 1.5em 1.5em;
@@ -68,14 +68,16 @@ section {
     border-radius: 0 0 5px 5px;
 }
 
-/*--Other CSS Applications--*/
-
-h1 {
-    font-size: 1.35em;
-}
+/*--CSS to all sections--*/
 
 h1, h2, .hook, .body-text {
     padding: 0.5em 0;
+}
+
+/*--Section 1 (col1) CSS--*/
+
+h1 {
+    font-size: 1.35em;
 }
 
 .body-text {
@@ -83,15 +85,19 @@ h1, h2, .hook, .body-text {
     line-height: 1.8;
 }
 
+/*--Section 2 (col2) CSS--*/
+
 .price {
     font-size: 2em;
 }
 
-span { /*--"per month" element found in section two or col2--*/
+span { /*--"per month" element--*/
     font-size: initial;
     vertical-align: 30%;
     padding-left: 11px;
 }
+
+/*--Section 3 (col3) CSS--*/
 
 button {
     font: inherit;
@@ -117,7 +123,7 @@ ul li {
 /*--Utility Classes--*/
 
 h2 {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .white-text {
